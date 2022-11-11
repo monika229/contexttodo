@@ -1,0 +1,52 @@
+.card {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+  }
+  
+  .users {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .users ul {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .users li {
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+  
+  .container-left{
+    background: linear-gradient(to right bottm, #e1b382, #c89666);
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .app-wrapper-left {
+   background-color: rgb(174, 96, 96);
+   min-width: 450px;
+    min-height: 650px;
+    padding: 30px;
+   box-sizing: border-box;
+   border-radius: 10px solid black;
+   box-shadow: 3px, 6px, 40px #000; 
+   margin-bottom: 10px;
+  }
+  
+  .header-left h1 {
+    /* background-color: #0303b4; */
+    color: rgba(8, 1, 1, 0.518);
+    text-align: center;
+    margin: 0px 0;
+   }
+  
+   
+  
