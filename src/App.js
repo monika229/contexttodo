@@ -17,7 +17,7 @@ function App() {
       <Fragment>
         <SearchFun />
 
-        <button className="btn btn" onClick={addTaskButtonHandler}>
+        <button className="addtask-btn" onClick={addTaskButtonHandler}>
           Add Task
         </button>
 
@@ -27,10 +27,11 @@ function App() {
             handleClose={addTaskButtonHandler}
           />
         )}
-        <div className="show">
+        <div className="todo-des">
           <TasksList status="todo" 
           title="To Do List"/>
-
+          {/* </div>
+          <div className="done-des"> */}
           <TasksList status="done" 
           title="Done List"/>
         </div>

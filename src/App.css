@@ -6,32 +6,7 @@
   padding: 0;
  }
  
- /* .container {
-   background: linear-gradient(to right bottm, #e1b382, #c89666);
-   width: 100%;
-   min-height: 100vh;
-   display: flex;
-   justify-content: left;
-   align-items: center;
- }
-
- .app-wrapper {
-  background-color: rgb(174, 96, 96);
-  min-width: 450px;
-   min-height: 650px;
-   padding: 30px;
-  box-sizing: border-box;
-  border-radius: 10px solid black;
-  box-shadow: 3px, 6px, 40px #000; 
-  margin-bottom: 10px;
- }
-
- .header h1 {
-  color: #fff;
-  text-align: center;
-  margin: 0px 0;;
- } */
-
+ 
  .task-input{
   outline: none;
   width: 260px;
@@ -108,47 +83,15 @@ outline:none;
 
 }
 
-.show {
+.todo-des {
   display: flex;
+ margin-left: 10%;
 }
 
-/* .App {
-  text-align: center;
+
+.addtask-btn{
+  width: 10%;
+  min-height:50px;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 

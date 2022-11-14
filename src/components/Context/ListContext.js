@@ -4,7 +4,10 @@ const ListContext = React.createContext({
     //default value
    tasks: [],
    addTask: ()=>{} ,
-   deleteTasks: ()=> {}
+   deleteTasks: ()=> {},
+   editTask: () => {},
+   searchTerm: "",
+   setSearchTerm: ()=> {}
 });
 
 export default ListContext;

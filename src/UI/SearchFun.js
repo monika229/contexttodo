@@ -1,30 +1,37 @@
-import React, { useRef} from "react";
-//import "./SearchFun.css";
+import React, { useRef, useContext} from "react";
+import ListContext from "../components/Context/ListContext";
+import "./SearchFun.css";
 const SearchFun = (props) => {
+  const globalContext= useContext(ListContext)
  const inputtask= useRef("");
 
   
   const getSearchTerm = (event) =>{
     event.preventDefault();
-    props.searchKeyWord(inputtask.current.value);
+    globalContext.search(inputtask.current.value);
+  
   };
   return (
+    <div class="container">
+
+   
     <form className="d-flex" role="search" onSubmit={getSearchTerm}>
       <input
       ref={inputtask}
-        className="form-control me-2"
+        // className="form-control me-2"
         type="text"
         placeholder="Search"
         aria-label="Search"
-        value={props.term}
-        onChange={getSearchTerm}
+        //value={globalContext.searchTerm}
+        
       
       />
-      
-      <button className="btn btn-outline-success" type="submit">
+      {/* className="btn btn-outline-success" */}
+      <button  type="submit">
         Search
       </button>
     </form>
+    </div>
   );
 };
 
